@@ -1,0 +1,24 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "graphql-request": "3.4.0",
+    "msw": "0.29.0",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "3.16.0"
+  },
+  "license": "MIT",
+  "keywords": ["next"],
+  "msw": {
+    "workerDirectory": "public"
+  },
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works."
+}
